@@ -1,0 +1,10 @@
+render:
+    path: /
+    controller: App\Controller\RenderController::index
+
+login:
+    path: /login
+    controller: App\Controller\SecurityController::login
+
+logout:
+    path: /logout
